@@ -1,0 +1,36 @@
+{
+  "name": "react-autocomplete.js",
+  "version": "2.6.0",
+  "description": "React for autocomplete.js",
+  "main": "dist/es5.js",
+  "scripts": {
+    "test": "eslint index.jsx",
+    "build": "babel --plugins transform-react-jsx index.jsx -o dist/es5.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autocompletejs/react-autocomplete.js.git"
+  },
+  "keywords": [
+    "autocomplete",
+    "react",
+    "autocomplete.js"
+  ],
+  "author": "Baptiste Donaux <baptiste.donaux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autocompletejs/react-autocomplete.js/issues"
+  },
+  "homepage": "https://github.com/autocompletejs/react-autocomplete.js#readme",
+  "dependencies": {
+    "autocomplete-js": "2.6.*",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "eslint": "^3.17.1",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}

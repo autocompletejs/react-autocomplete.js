@@ -1,0 +1,6 @@
+*.tgz
+.babelrc
+.eslintrc.json
+.gitignore
+.travis.yml
+index.jsx

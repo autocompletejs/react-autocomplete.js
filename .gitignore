@@ -1,0 +1,5 @@
+.babelrc
+.eslintrc.json
+.travis.yml
+node_modules
+test
