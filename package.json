@@ -1,5 +1,5 @@
 {
-  "name": "react-autocomplete.js",
+  "name": "react-autocomplete-js",
   "version": "2.6.0",
   "description": "React for autocomplete.js",
   "main": "dist/es5.js",
